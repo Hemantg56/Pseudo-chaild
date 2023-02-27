@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hover-Focus </title>
+    <style>
+        input {
+            border: none;
+            box-shadow: 0 0 40px black;
+            margin: 30px;
+            transition: 2s;
+        }
+        /*  */
+        /*  */
+        /* hover mouse nu carsur lyi jayiye to je aapde effect aapyu hoy e aave  */
+        
+        input:hover {
+            transform: translate(0, 5px) scale(1.2);
+            background-color: lightblue;
+        }
+        
+        input:focus {
+            background-color: lightgreen;
+            font-size: 22px;
+            color: pink;
+            outline: none;
+        }
+        
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            background: url(https://images.wallpaperscraft.com/image/single/sportscar_drift_neon_144519_300x168.jpg);
+            height: 200px;
+            width: 200px;
+            transition: 7s;
+            background-size: 100% 100%;
+        }
+        
+        h2:hover {
+            color: red;
+            font-size: 40px;
+            box-shadow: 10px 10px 50px green;
+            font-family: cursive;
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>s
+
+<body>
+    <input type="text">
+    <h2> Hemant </h2>
+</body>
+
+</html>
